@@ -1,0 +1,25 @@
+{
+  "name": "http-from-scratch-typescript",
+  "version": "1.0.0",
+  "description": "Creating an HTTP server from scratch with Typescript (no express).",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidHanover/http-from-scratch-typescript.git"
+  },
+  "keywords": [
+    "Typescript",
+    "HTTP",
+    "Server",
+    "No-Express"
+  ],
+  "author": "David Hanover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidHanover/http-from-scratch-typescript/issues"
+  },
+  "homepage": "https://github.com/DavidHanover/http-from-scratch-typescript#readme"
+}
