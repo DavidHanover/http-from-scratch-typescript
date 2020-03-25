@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/DavidHanover/http-from-scratch-typescript/issues"
   },
-  "homepage": "https://github.com/DavidHanover/http-from-scratch-typescript#readme"
+  "homepage": "https://github.com/DavidHanover/http-from-scratch-typescript#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
 }
