@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Creating an HTTP server from scratch with Typescript (no express).",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "node server.js"
   },

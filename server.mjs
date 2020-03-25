@@ -8,7 +8,9 @@ net
   .createServer()
   .listen(PORT, IP, BACKLOG)
   .on("connection", socket =>
-    console.log(
-      `New connection from ${socket.remoteAddress}:${socket.remotePort}`
-    )
+    socket.on("data", buffer => {
+      const request = buffer.toString();
+      socket.write("hello world!");
+      socket.end();
+    })
   );
